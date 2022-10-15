@@ -14,7 +14,7 @@ async def generate(prompt: str = Form(...), image: UploadFile = File(None)):
     if image is not None:
         image_attached = True
         image = await preprocess_image(image)
-    result = await ml_client.post({'image_attached': image_attached,
+    result = await ml_client.infer({'image_attached': image_attached,
                                    'prompt': prompt,
                                    'image': image})
     # result = postprocess_image(image)
