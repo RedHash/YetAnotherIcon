@@ -1,3 +1,9 @@
+# Checkpoints
+
+[Stable diffusion](https://drive.google.com/file/d/10kJjk0MLUceHy6B7_tP9mfGaFqlWun21/view?usp=sharing)
+ 
+[Finetuned model](https://drive.google.com/file/d/1zGBTQAbXO13ywjW74Plg1kjxX3glSDf9/view?usp=sharing)
+
 # Dreambooth on Stable Diffusion
 
 This is an implementtaion of Google's [Dreambooth](https://arxiv.org/abs/2208.12242) with [Stable Diffusion](https://github.com/CompVis/stable-diffusion). The original Dreambooth is based on [Imagen](https://imagen.research.google/) text-to-image model. However, neither the model nor the pre-trained weights of Imagen is available. To enable people to fine-tune a text-to-image model with a few examples, I implemented the idea of Dreambooth on Stable diffusion.
